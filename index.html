@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+
+        <nav>
+            <i class="far fa-address-book"></i>
+            <p id="home">SIMPLICITY</p><br><br>
+            <p id="print">PRINT</p><br>
+            <p id="verify">VERIFY</p><br>
+            <p id="lookup">LOOKUP</p><br>
+            <p id="contain">CONTAINS</p><br>
+            <p id="update">UPDATE</p><br>
+            <p id="add">ADD</p><br>
+            <p id="delete">DELETE</p>
+        </nav>
+       
+
+
+        <article>
+            <div class ="greeting hide"><h1 id="header">Welcome to <span class="simply">Simplicity</span></h1><br>
+            <h3 id="motto">The Minimalist Directory.</h3></div>
+            <form>
+                <div><input id="name" value="name"/></div>
+                <input id="office" value="office#"/>
+                <input id="phone" value="phone"/>
+                <button id="submit"><i class="fas fa-search"></i></button>
+
+            </form>
+            <div id="results" class="show"></div>
+            <div id="outputs" class="show"></div>
+        </article>
+    </main>
+
+
+    <script src="dom.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

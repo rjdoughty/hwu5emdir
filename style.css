@@ -1,0 +1,115 @@
+body {
+    height: 130vh;
+}
+
+
+
+main{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 150px 1fr;
+}
+nav {
+    background-color: rgb(63, 56, 56);
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+    padding-top: 300px;
+    text-align: center;
+   
+}
+p {
+    padding-top: 10px;
+}
+
+#header {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+
+    
+
+}
+
+
+.simply {
+    color: yellow;
+}
+.hide {
+    display: none;
+}
+.greeting {
+    display: block;
+text-align: center;
+padding: 300px;
+color: white;
+}
+
+input{
+    display: none;
+    height: 20px;
+    
+    border: 2px solid #333;
+    font-size: 20px;
+    margin: 10px;
+    width: 200px;
+       
+}
+
+button {
+    display: none;
+    font-size: 20px;
+    margin: auto;    
+
+} 
+
+article {
+    margin: 30px;
+    background-image: url("assets/IMG_1431.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+form {
+    position: absolute;
+    top: 30px;
+    width: 30%;
+
+    padding-top: 50px;
+    opacity: 0.5;
+
+}
+.show {
+    display: block;
+}
+
+#results {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 300;
+    top: 25px;
+    left: 10px;
+    color: white;
+    height: 400px;
+
+
+}
+
+
+#outputs {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+   
+    height: 300px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    
+}
+
+#home {
+    color: yellow
+}
